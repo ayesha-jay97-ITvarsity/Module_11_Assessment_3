@@ -1,0 +1,40 @@
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    width           : 100%;
+    left            : 0;
+    bottom          : 0;
+    padding-bottom  : 2rem;
+    padding-left    : 2rem;
+}
+
+.team .col-lg-4 {
+    padding-top  : 3rem;
+    margin-bottom: 1.5rem;
+    text-align   : center;
+}
+
+.section-divider{ 
+    margin: 3rem 0;
+}
+
+.footer-section {
+  padding-top   : 3rem;
+  padding-bottom: 3rem;
+  color         : #5a5a5a;
+}
+
+@media (min-width: 1200px) {                        /* media query (jquery?) where we specify screen size of a min of 1200px i.e. if screen < 12000px, do NOT apply i.e. only apply if screen is > 1200px */
+  .feature-heading {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {                         /* apply the following styling to any screen size with a MAX width of 540px i.e. screen of 540ppx or less, apply the following */
+    .carouselImg {
+        display: none;
+    }
+    
+    .team {
+        margin-top: 2rem;
+    }
+}
